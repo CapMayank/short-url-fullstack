@@ -1,0 +1,77 @@
+.allurls{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.allurls h1{
+    color: #3385ff;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    
+}
+
+.allurls h1:hover{
+    color: #ffffff;
+}
+
+.tblresponsive{
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -webkit-scrollbar {
+      display: none; /* Hides the scrollbar */
+    }
+}
+
+.urls-table {
+    width: 100%;
+    border-collapse: collapse; 
+    overflow-x: auto;
+
+  }
+  
+  .urls-table th{
+    color: #3385ff;
+    font-size: 20px;
+    font-weight: 800;
+  }
+
+  .urls-table th,
+  .urls-table td {
+    border: 1px solid #ccc; /* Lines between cells */
+    padding: 8px;
+    font-weight: 800;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .urls-table td a{
+    text-decoration: none;
+    font-weight: 800;
+  }
+  .urls-table th {
+    background-color: #f2f2f2; /* Distinguish header row */
+  }
+  .urls-table td button{
+  padding: 5px;
+  border-radius: 10px;
+  border: 0px solid #3385ff;
+  background-color: #3385ff;
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.87);
+  font-size: 1.2rem;
+  font-weight: 800;
+  overflow: hidden;
+}
+.urls-table td button:hover{
+  background-color: #ffffff;
+  color: #3385ff;
+}
+
+  
+  .error-message {
+    color: red;
+    font-weight: bold;
+  }
+  

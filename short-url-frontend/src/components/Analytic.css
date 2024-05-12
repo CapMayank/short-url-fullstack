@@ -1,0 +1,51 @@
+.analytics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.analytics h1{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.analytics-data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.analytics-table .tabel-head{
+    text-align: center;
+
+}
+
+.analytics-table {
+    width: 100%;
+    border-collapse: collapse; /* Ensures table lines are visible */
+  }
+  
+  .analytics-table th,
+  .analytics-table td {
+    border: 1px solid #ccc; /* Lines between cells */
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .analytics-table th {
+    background-color: #f2f2f2; /* Distinguish header row */
+    color: #3385ff;
+    font-size: 20px;
+    font-weight: 800;
+  }
+  
+  .error-message {
+    color: red;
+    font-weight: bold;
+  }
+  

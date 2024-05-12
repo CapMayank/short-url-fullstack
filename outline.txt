@@ -1,0 +1,8 @@
+frontend: 
+/signup -> signup (succes)=> /login
+/login -> login (sucess)=> /
+
+/ -> Home
+/analytics -> analytics
+/allurls -> Al urls
+

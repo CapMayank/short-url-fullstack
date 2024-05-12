@@ -1,0 +1,115 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+.short-url{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.short-url h1{
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.short-url h1:hover{
+  color: #3385ff;
+  
+}
+
+
+.form-container{
+  display: flex;
+  min-width: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.87);
+}
+
+.input-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 10px;
+  gap: 5px;
+
+}
+
+.input-form label{
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: #242424;
+}
+
+.input-form input{
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid #242424;
+  font-size: 1.2rem;
+  font-weight: 800;
+
+}
+
+.input-form button{
+  padding: 5px 20px 5px 20px;
+  border-radius: 10px;
+  border: 0px solid #242424;
+  background-color: #242424;
+  align-self: center;
+  width: auto;
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.87);
+  font-size: 1.2rem;
+  font-weight: 800;
+  overflow: hidden;
+}
+
+.input-form button:hover{
+  background-color: #3385ff;
+  color: #242424;
+}
+
+.shortened-url{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 50%;
+  max-width: 78%;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.87);
+
+}
+
+.shortened-url h2{
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #242424;
+}
+
+.shortened-url a{
+  width: 100%;
+  word-break: break-all; /* Allows long URLs to break at any point */
+  overflow-wrap: break-word; /* Ensures text wraps correctly within its box */
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: #3385ff;
+  border-radius: 10px;
+  padding: 15px;
+  text-decoration: none;
+  background-color: #242424 ;
+  text-align: center;
+
+}
+
+.shortened-url a:hover{
+  background-color: #3385ff;
+  color: rgba(255, 255, 255, 0.87);
+}
